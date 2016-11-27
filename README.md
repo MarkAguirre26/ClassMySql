@@ -23,26 +23,26 @@ HOW TO USE?
 
 1. Connect your proJect to your database.
 
-   	 private void Form1_Load(object sender, EventArgs e)  {
-            ClassMysql.ClassMysql.Constring = "Server=localhost;Database=youdb;Uid=root;Pwd=yourPWD;";           
-        }
+   		 private void Form1_Load(object sender, EventArgs e)  {
+          	 	 ClassMysql.ClassMysql.Constring = "Server=localhost;Database=youdb;Uid=root;Pwd=yourPWD;";           
+       		 }
 
 2.  Insert/Update/Delete query.
     
-        private void cmd_Command_Click(object sender, EventArgs e)    {
-            ClassMysql.ClassMysql a = new ClassMysql.ClassMysql();
-            a.ExecuteQuery("Query here");
-        }
+      	  	private void cmd_Command_Click(object sender, EventArgs e)    {
+            		ClassMysql.ClassMysql a = new ClassMysql.ClassMysql();
+           	 	a.ExecuteQuery("Query here");
+        	}
 
 3.  Read/Get Data.
 
 		private void cmd_get_Click(object sender, EventArgs e)     {
-          	  ClassMysql.ClassMysql a = new ClassMysql.ClassMysql(); DataTable dt;
-          	  dt = a.Table("Query here");
-          	 dataGridView1.Rows.Clear();
-          	 foreach (DataRow dr in dt.Rows)    	{
-               dataGridView1.Rows.Add(dr["column1"].ToString(), dr["column1"].ToString(), dr["column1"].ToString());
-     	      }
+          	  	ClassMysql.ClassMysql a = new ClassMysql.ClassMysql(); DataTable dt;
+          	  	dt = a.Table("Query here");
+          		 dataGridView1.Rows.Clear();
+          		 foreach (DataRow dr in dt.Rows)    	{
+              			 dataGridView1.Rows.Add(dr["column1"].ToString(), dr["column1"].ToString(), dr["column1"].ToString());
+     	    		  }
         	 }
 	 
 //The Developer
