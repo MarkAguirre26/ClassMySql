@@ -8,8 +8,7 @@ INSTALLATION
     
 FILES
 
->Class/ClassMysql.dll
->Demo project
+ClassMysql.dll  and Demo project
     
 2. Install ado.net connector v 6.9.9.
 
