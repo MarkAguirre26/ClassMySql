@@ -6,9 +6,9 @@ INSTALLATION
 1. Download ProjectClasMysql.rar.
     https://www.dropbox.com/s/bhu9wvagygzhx9x/ProjectClasMysql.zip?dl=1
     
-Files
--Class/ClassMysql.dll
--Demo project
+FILES
+Class/ClassMysql.dll
+Demo project
     
 2. Install ado.net connector v 6.9.9.
 
