@@ -1,4 +1,4 @@
-# ClassSql
+# ClassMySql
 Better way to perform Create Read Update Delete(CRUD)
 
 INSTALLATION
