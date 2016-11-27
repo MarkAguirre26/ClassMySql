@@ -7,8 +7,9 @@ INSTALLATION
     https://www.dropbox.com/s/bhu9wvagygzhx9x/ProjectClasMysql.zip?dl=1
     
 FILES
-Class/ClassMysql.dll
-Demo project
+
+>Class/ClassMysql.dll
+>Demo project
     
 2. Install ado.net connector v 6.9.9.
 
@@ -17,7 +18,7 @@ Demo project
    (Via package)
      https://dev.mysql.com/downloads/connector/net/6.9.html
      
-3. Add reference ClassMysql to your project.
+3. Add reference ClassMySql.dll class to your project.
 
 HOW TO USE?
 
