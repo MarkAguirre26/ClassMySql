@@ -13,9 +13,9 @@ ClassMysql.dll  and Demo project
 2. Install ado.net connector v 6.9.9.
 
    (via nuget)
-     PM> Install-Package MySql.Data -Version 6.9.9
+     Install-Package MySql.Data -Version 6.9.9
    (Via package)
-     https://dev.mysql.com/downloads/connector/net/6.9.html
+     http://cdn.mysql.com//Downloads/Connector-Net/mysql-connector-net-6.9.9.msi
      
 3. Add reference ClassMySql.dll class to your project.
 
